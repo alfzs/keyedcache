@@ -5,7 +5,7 @@
 ## Установка
 
 ```bash
-go get github.com/yourusername/keyedcache
+go get github.com/alfzs/keyedcache
 ```
 
 ## Использование
@@ -15,7 +15,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/yourusername/keyedcache"
+	"github.com/alfzs/keyedcache"
 )
 
 func main() {
@@ -49,11 +49,3 @@ keyedcache.Make("user", nil, 99)
 ## Лицензия
 
 MIT
-
-```
-
----
-
-🔧 Замените `github.com/yourusername/keyedcache` на фактический путь вашего модуля, если он опубликован на GitHub.
-Если вы планируете расширение пакета (например, `Prefixer`, `Hasher`, `Encoder`), стоит предусмотреть разделение API и документацию по модулям.
-```
